@@ -1,2 +1,2 @@
-driver/__pycache__/
-driver/migrations/
+__pycache__/
+migrations/
