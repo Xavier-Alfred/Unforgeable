@@ -19,13 +19,10 @@ We have constructed a convolutional neural network and trained it on multiple im
 ![alt text](https://github.com/Techipeeyon/Images/raw/main/icons/deepin-screen-recorder_Select%20area_20211103232849.gif) 
 
 ## Challenges we ran into
-We have also deployed our web app using Heroku Cloud. You can access it on
-
-## Accomplishments that we're proud of
 - The deployment of the model into the django app took very long than expected, since we tried to run the inference on PyTorch CPU version.
 - Building the UI is also a time-consuming activity and it demanded a full-fledged work time.
 
-## What we learned
+## Accomplishments that we're proud of
 - We learnt how to implement transfer learning for Convolutional Neural Network (CNN) models and deploying them on to the django application.
 - We also learnt some basic video editing to make the video pitch for the project. The challenging part is to build the video very quick by learning parallely.
 
