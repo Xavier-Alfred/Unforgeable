@@ -10,7 +10,7 @@ The webapp takes in the suspicious image as input and makes prediction using the
 - Tampered confidence
 
 ## Approach
-![alt text](https://github.com/Xavier-Alfred/Unforgeable/blob/main/133894966-24704241-968e-4240-a12d-a5bc8685512e.png)
+![alt text](https://github.com/Techipeeyon/Images/raw/main/icons/unforgeable.drawio.png)
 
 ## How we built it
 We have constructed a convolutional neural network and trained it on multiple image datasets containing real and tampered images. The model with least generalization error is chosen and saved. Transfer learning is implemented using the pretrained model for faster inference and hence the predictions are super fast and accurate.
