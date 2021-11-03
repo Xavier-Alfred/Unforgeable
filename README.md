@@ -12,6 +12,8 @@ The webapp takes in the suspicious image as input and makes prediction using the
 ## How we built it
 We have constructed a convolutional neural network and trained it on multiple image datasets containing real and tampered images. The model with least generalization error is chosen and saved. Transfer learning is implemented using the pretrained model for faster inference and hence the predictions are super fast and accurate.
 
+![alt text](https://github.com/Xavier-Alfred/Unforgeable/blob/main/133894966-24704241-968e-4240-a12d-a5bc8685512e.png)
+
 ## Challenges we ran into
 We have also deployed our web app using Heroku Cloud. You can access it on
 
