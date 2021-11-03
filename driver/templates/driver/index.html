@@ -1,0 +1,28 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en" style="height: 100%;">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>Unforgeable</title>
+    <meta name="description" content="Image forgery detector">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.0.0-beta3/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat+Alternates:800">
+</head>
+
+<body style="height: 100%;min-height: 100%;max-height: 100%;">
+    <section style="height: 100%;overflow: hidden; min-height: 100%;max-height: 100%;margin-top: 0px;width: 100%;background: url({% static 'img/bg1.jpg' %}) center / cover;">
+        <nav class="navbar navbar-light navbar-expand-md" style="background: transparent;color: rgb(104,109,115);height: 70px;filter: brightness(138%);border-style: none;border-bottom-style: solid; border-bottom-width: 1px;">
+            <div class="container-fluid"><a class="navbar-brand" href="#" style="font-weight: bold;color: rgb(255,255,255);filter: brightness(68%);">Unforgeable</a></div>
+        </nav>
+        <div class="col" style="text-align: left;height: 100%;">
+            <h1 style="color: rgb(213,210,210);font-family: 'Montserrat Alternates', sans-serif;font-weight: normal;width: 60%;font-size: 55px;margin-right: 500px;margin-bottom: 0px;padding: 80px;padding-top: 100px;padding-bottom: 50px;">Ready to unveil the secret behind your images</h1>
+            <p style="text-align: left;color: rgb(159,164,170);width: auto;font-weight: bold;font-size: 100%;margin-left: 6vw;">Image forgery is the ultimate threat and we are here to save you from them</p>
+            <button class="btn btn-primary" type="button" style="margin-left: 7vw;text-align: center; background: rgb(239,241,244);color: rgb(16,13,13);border-radius: 35px;padding: 15px;padding-top: 12px;padding-bottom: 12px;padding-right: 20px;padding-left: 20px;font-weight: bold;margin-top: 45px;border-style: solid;border-color: rgb(251,244,244);border-bottom-style: solid;border-bottom-color: rgb(239,241,244);"><a href="{% url 'verify' %}" target="_parent" style='text-decoration:None;'>GET STARTED</a></button>
+        </div>
+    </section>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.0.0-beta3/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
